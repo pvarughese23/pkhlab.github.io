@@ -223,6 +223,7 @@ li span{
 .citation {
 	width: 75%;
 	display: inline-block;
+	margin-bottom: 2em;
 }
 .pub-extra {
 	width: 20%;
