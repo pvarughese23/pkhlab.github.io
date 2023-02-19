@@ -105,40 +105,87 @@
             </div>
         </div>
 
-    <div id="header">Contact</div>
+        <div id="header">Gallery</div>
 
-    <div class="main-content">
-        <div class="spacer"></div>
 
-        <div id="map">
+        <div class="main-content">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.5951010623853!2d-87.83710514895422!3d41.85854117912179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e357500ec1489%3A0x1d4ca8c51f529d81!2sCenter+for+Translational+Research+%26+Education!5e0!3m2!1sen!2sus!4v1564786195945!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="..." allowfullscreen></iframe>
-        </div>
-        <div class="spacer"></div>
-        <div class="address">
-            <h3 class="pub-title">General Inquiries</h3>
-            Contact Dr. Kekenes-Huskey: <div class="email">pkekeneshuskey@luc.edu</div>
-            Ph: 708-327-2744
-        </div>
-        <div class="mobilespacer"></div>
-        <div class="address">
-            <h3 class="pub-title">Lab Address</h3>
-            PKH Lab<br>
-            Loyola University Chicago<br>
-            Cell and Molecular Physiology Department<br>
-            2160 South First Avenue<br>
-            CTRE Room 532<br>
-            Maywood, IL 60153<br>
-            <strong>*Parking Information: You can park in Parking Deck A, just south of the big hospital and north of the Stritch School of Medicine</strong>
-        </div>
-        <div class="mobilespacer"></div>
-    </div>
-                    <div class="spacer"></div>
-    <footer>
-            <div class="footer-block" id="footleft"><a class="unadorned" href="https://ssom.luc.edu/physio/">Department of Cell &amp; Molecular Physiology</a></div>
-            <div class="footer-block" id="footright"><a class="unadorned" href="https://ssom.luc.edu/">Loyola University Chicago</a></div>
-            <div class="footer-block" id="footcenter">&copy; <script>new Date().getFullYear()>2010&&document.write(+new Date().getFullYear());</script> PKH Lab</div>
-        </footer>
-</body>
-</html>
+            <div class="research">
+                <div class="research-intro">
+                    <h1 class="res-bigpicture">PKH Lab Pictures</h1>
+                    <u>2023</u>
+                      <div class="slider">
+                        <span id="slide-1"></span>
+                        <span id="slide-2"></span>
+                        <div class="image-container">
+                          <img src="images/gallery_images/Audrey1.jpg" class="slide" width="400" height="400" />
+                          <img src="images/gallery_images/Audrey2.jpg" class="slide" width="400" height="400" />
+                        </div>
+                        <div class="buttons">
+                          <a href="#slide-1"></a>
+                          <a href="#slide-2"></a>
+                        </div>
+                      </div>
+                      <b><center>Audrey giving an excellent talk about a pip2 regulated potassium channel to high schoolers at the Lycée Français de Chicago </center></b>
+                      
+                <!----
+<div class="front-announce">
+<a href="openings.html" class="unadorned2"><h2 class="announcement2">&nbsp;&nbsp;Positions Available!&nbsp;&nbsp;</h2>
+<h2 class="announcement2">Click for details</h2></a>
+</div>
+</div>
+--->
 
+<style>
+    .slider {
+      width: 400px;
+      height: 400px;
+      background-color: yellow;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .image-container {
+      width: 1500px;
+      background-color: pink;
+      height: 300px;
+      clear: both;
+      position: relative;
+      -webkit-transition: left 2s;
+      -moz-transition: left 2s;
+      -o-transition: left 2s;
+      transition: left 2s;
+    }
+    .slide {
+      float: left;
+      margin: 0px;
+      padding: 0px;
+      position: relative;
+    }
+    #slide-1:target ~ .image-container {
+      left: 0px;
+    }
+    #slide-2:target ~ .image-container {
+      left: -400px;
+    }
+    .buttons {
+      position: relative;
+      top: -20px;
+    }
+    .buttons a {
+      display: inline-block;
+      height: 15px;
+      width: 15px;
+      border-radius: 50px;
+      background-color: lightgreen;
+    }
+  </style>
+            <footer>
+                <div class="footer-block" id="footleft"><a class="unadorned" href="https://ssom.luc.edu/physio/">Department of Cell &amp; Molecular Physiology</a></div>
+                <div class="footer-block" id="footright"><a class="unadorned" href="https://ssom.luc.edu/">Loyola University Chicago</a></div>
+                <div class="footer-block" id="footcenter">&copy; <script>new Date().getFullYear()>2010&&document.write(+new Date().getFullYear());</script> PKH Lab</div>
+            </footer>
+            </body>
+        </html>
