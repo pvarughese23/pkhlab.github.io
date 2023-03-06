@@ -7,3 +7,4 @@ deployment:
     - /bin/cp *.ico $DEPLOYPATH
     - /bin/cp -R files/ $DEPLOYPATH
     - /bin/cp -R images/ $DEPLOYPATH 
+    - /bin/cp -R slideshow/ $DEPLOYPATH 
